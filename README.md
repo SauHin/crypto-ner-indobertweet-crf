@@ -9,10 +9,8 @@ challenging due to the community's complex linguistic registers,
 high out-of-vocabulary rates, and the critical scarcity of
 domain-specific annotated datasets for the Indonesian language.
 To address dataset scarcity, this study proposes a hybrid Named
-
 Entity Recognition (NER) pipeline utilizing an IndoBERTweet-
 CRF architecture. A Distant Supervision approach is employed
-
 to automate the labeling of a Silver Standard dataset using the
 CoinGecko API as a Local Knowledge Base, integrated with a
 Heuristic-Augmented Denoising mechanism to mitigate label
@@ -24,7 +22,6 @@ Precision of 77.48% and an F1-Score of 70.76%, while the
 Conditional Random Field (CRF) layer successfully prevents all
 structurally invalid label sequences. Although the approach
 significantly reduces the time and resources required for
-
 manual annotation, the model remains vulnerable to cross-
 domain lexical ambiguity and exhibits reduced confidence when
 processing formal, news-style prose lacking community slang
